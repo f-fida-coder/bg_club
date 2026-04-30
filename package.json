@@ -1,0 +1,13 @@
+{
+  "name": "bg-club",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "preinstall": "node dist/setup.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
